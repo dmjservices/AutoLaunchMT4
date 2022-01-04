@@ -17,20 +17,42 @@ path_ini <- file.path(path_dss, 'AutoLaunchMT4')
 # launch MT4 terminal with parameters
 # customize to suit your needs:
 write_ini_file(mt4_Profile = "Default",
-               mt4_Login = "12345678",
-               mt4_Password = "password",
-               mt4_Server = "BrokerServerName",
+               mt4_Login = "2922649",
+               mt4_Password = "do5xzej",
+               mt4_Server = "OANDA-Demo-1",
                dss_inifilepath = path_ini,
                dss_inifilename = "prod_T1.ini",
+               dss_mode = "prod")
+
+# terminal 2
+# launch MT4 terminal with parameters
+# customize to suit your needs:
+write_ini_file(mt4_Profile = "Default",
+               mt4_Login = "7398307",
+               mt4_Password = "vqn5fla",
+               mt4_Server = "OANDA-Demo-1",
+               dss_inifilepath = path_ini,
+               dss_inifilename = "prod_T2.ini",
                dss_mode = "prod")
 
 # terminal 3
 # launch MT4 terminal with parameters
 # customize to suit your needs:
 write_ini_file(mt4_Profile = "Default",
-               mt4_Login = "12345678",
-               mt4_Password = "password",
-               mt4_Server = "BrokerServerName",
+               mt4_Login = "5511680",
+               mt4_Password = "6qzergv",
+               mt4_Server = "OANDA-Demo-1",
                dss_inifilepath = path_ini,
                dss_inifilename = "prod_T3.ini",
+               dss_mode = "prod")
+
+# terminal 4
+# launch MT4 terminal with parameters
+# customize to suit your needs:
+write_ini_file(mt4_Profile = "Default",
+               mt4_Login = "5739545",
+               mt4_Password = "gd8vwhb",
+               mt4_Server = "OANDA-Demo-1",
+               dss_inifilepath = path_ini,
+               dss_inifilename = "prod_T4.ini",
                dss_mode = "prod")
