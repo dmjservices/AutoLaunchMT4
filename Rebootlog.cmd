@@ -1,4 +1,4 @@
-echo --------------->> C:\rebootlog.txt
-echo last reboot at:>> C:\rebootlog.txt
-date /T              >> C:\rebootlog.txt
-time /T              >> C:\rebootlog.txt
+echo --------------->> C:\Rebootlog\rebootlog.txt
+echo last reboot at:>> C:\Rebootlog\rebootlog.txt
+date /T              >> C:\Rebootlog\rebootlog.txt
+time /T              >> C:\Rebootlog\rebootlog.txt
